@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_img_height">
+
+    <ImageView
+        android:id="@+id/nav_header_iv"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/welcome_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/welcome"
+        app:layout_constraintBottom_toTopOf="@+id/username_tv"
+        app:layout_constraintStart_toEndOf="@+id/nav_header_iv"
+        app:layout_constraintTop_toTopOf="@+id/nav_header_iv"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/username_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/username"
+        android:textColor="@color/black"
+        android:textSize="@dimen/nav_header_name_size"
+        app:layout_constraintBottom_toBottomOf="@+id/nav_header_iv"
+        app:layout_constraintStart_toEndOf="@+id/nav_header_iv"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_tv" />
+
+
+    <ImageView
+        android:id="@+id/profile_iv"
+        android:layout_width="@dimen/nav_header_arrow_width"
+        android:layout_height="@dimen/nav_header_arrow_height"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/arrow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/nav_header_iv" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

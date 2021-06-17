@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="nav_header_img_height">160dp</dimen>
+    <dimen name="nav_header_name_size">16sp</dimen>
+    <dimen name="nav_header_arrow_height">32dp</dimen>
+    <dimen name="nav_header_arrow_width">18dp</dimen>
+
+</resources>

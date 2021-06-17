@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">News Feed</string>
+    <string name="link_dev">LINK DEVELOPMENT</string>
+
+    <!-- Drawer Menu -->
+    <string name="welcome">Welcome</string>
+    <string name="username">Tony Roshdy</string>
+
+    <string name="explore">Explore</string>
+    <string name="lifechat">Life Chat</string>
+    <string name="gallery">Gallery</string>
+    <string name="wishlist">Wish List</string>
+    <string name="emagazine">E-Magazine</string>
+
+    <!-- Network Error Messages -->
+    <string name="timeout_err">Connection Time Out</string>
+    <string name="noconnection_err">No Network Connection</string>
+    <string name="authfailure_err">Authentication Error</string>
+    <string name="server_err">Server Error</string>
+    <string name="network_err">Network Error</string>
+    <string name="parse_err">Parse Error</string>
+
+    <!-- Article Details Screen -->
+    <string name="open_website">open website</string>
+    <string name="author_str">By %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">Search</string>
+    <string name="retry">Retry</string>
+</resources>
